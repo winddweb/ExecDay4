@@ -12,7 +12,7 @@ stash pop will apply and delete the changes after applying it.
 Use pop when you only need to apply the changes once(usually). And if it has conflicts pop will not drop the stash anyway.
 
 4.
-Rebase -i, pick, reword, edit, squash(meld commits), fixup(squash but discard the message), exec(run command)
+Rebase -i, pick, reword, edit, squash(meld commits), fixup(squash but discard the message), exec(run command) and drop commits.
 
 
 
