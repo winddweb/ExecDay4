@@ -6,6 +6,10 @@ git reset (soft hard or mixed) moves the head back, and may also remove the chan
 2.
 Merge will create a new commit and merges the changes. Rebase will re-apply the changes with new commits to the base. 
 
-3. 
+3.
+stash pop will apply and delete the changes after applying it. 
+`git stash pop` is `git stash apply && git stash drop`
+Use pop when you only need to apply the changes once(usually). And if it has conflicts pop will not drop the stash anyway.
+
 
 
